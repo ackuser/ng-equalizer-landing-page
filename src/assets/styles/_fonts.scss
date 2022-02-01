@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+@mixin font($fontSize: medium,
+    $lineHeight: normal,
+    $fontWeight: 400,
+    $letterSpacing: normal) {
+
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    line-height: $lineHeight;
+    letter-spacing: $letterSpacing;
+}
+
+.eq {
+
+    &-h1 {
+        @include font(88px, 88px, bold, -1px);
+    }
+
+    &-h2 {
+        @include font(40px, 52px, bold);
+    }
+
+    &-body1 {
+        @include font(20px, 34px);
+    }
+
+    &-body2 {
+        @include font(16px, 26px);
+    }
+
+}
+
+
+@mixin body {
+    @include font(16px);
+}
+
+.font-change {
+    @include font(13px, medium, 17px);
+}
+
+.body2 {
+    @include font(11px, medium, 18px, -.23);
+}

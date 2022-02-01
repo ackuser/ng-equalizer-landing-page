@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import '_fonts';
+@import '_colors';
+@import '_images';
+
+/* You can add global styles to this file, and also import other style files */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    @include body;
+    margin: 0;
+    background: $primary-pale-blue;
+}
+
+app-root {
+    min-height: 100vh;
+}
