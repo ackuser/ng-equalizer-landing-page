@@ -1,0 +1,17 @@
+:host{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 622px 1024px 546px 1fr;
+    padding: 2%;
+
+    .svg--logo{
+        margin-top: 10%;
+        margin-left: 4%;
+    }
+
+    .info{
+        width: 324px;
+        height: 320px;
+        margin: auto;
+    }
+}

@@ -5,11 +5,10 @@
     $fontWeight: 400,
     $letterSpacing: normal) {
 
-    font-size: $fontSize;
-    font-weight: $fontWeight;
     font-family: 'IBM Plex Sans', sans-serif;
-
+    font-size: $fontSize;
     line-height: $lineHeight;
+    font-weight: $fontWeight;
     letter-spacing: $letterSpacing;
 }
 
@@ -31,17 +30,12 @@
         @include font(16px, 26px);
     }
 
-}
+    &-btn {
+        @include font(18px, 32px, bold, -0.18px);
+    }
 
+    &-p {
+        @include font(16px, 26px);
+    }
 
-@mixin body {
-    @include font(16px);
-}
-
-.font-change {
-    @include font(13px, medium, 17px);
-}
-
-.body2 {
-    @include font(11px, medium, 18px, -.23);
 }
