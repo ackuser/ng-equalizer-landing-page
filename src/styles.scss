@@ -30,11 +30,13 @@ app-root {
 }
 
 
-h1, .h1 {
+h1,
+.h1 {
     @extend .eq-h1;
 }
 
-h2, .h2 {
+h2,
+.h2 {
     @extend .eq-h2;
 }
 
@@ -48,4 +50,35 @@ p {
 
 .info {
     // margin: auto;
+}
+
+.icon {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    mask-size: cover;
+
+    &--fb {
+        mask: url(./assets/images/icon-facebook.svg);
+    }
+
+    &--instagram {
+        mask: url("./assets/images/icon-instagram.svg");
+    }
+
+    &--twitter {
+        mask: url("./assets/images/icon-twitter.svg");
+    }
+
+    // &--social {
+    //     & :hover {
+    //         fill: $primary-2;
+
+    //         path {
+    //             fill: orange;
+    //         }
+
+    //     }
+    // }
 }

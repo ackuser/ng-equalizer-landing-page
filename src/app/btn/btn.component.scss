@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
 
-    @media screen and (min-width: 376px) and (max-width: 768px) {}
+    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
 
     @media screen and (min-width: 769px) {
         width: 333px;
@@ -35,7 +35,7 @@
 :host-context(.btn--android) {
     background: $neutral-1;
     color: $neutral-2;
-    
+
     &:hover {
         background: $primary-2;
     }
