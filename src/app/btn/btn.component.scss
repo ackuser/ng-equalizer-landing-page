@@ -8,8 +8,9 @@
     border-radius: 12px;
     cursor: pointer;
     color: $neutral-1;
-    text-align: center;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     @media screen and (min-width: 376px) and (max-width: 768px) {}
 
@@ -32,11 +33,10 @@
 }
 
 :host-context(.android) {
-    @extend .btn-common;
-    background: $primary-2;
-
+    background: $neutral-1;
+    color: $neutral-2;
+    
     &:hover {
-        background: $neutral-1;
-        color: $neutral-2;
+        background: $primary-2;
     }
 }

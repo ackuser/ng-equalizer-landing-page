@@ -34,8 +34,12 @@ h1, .h1 {
     @extend .eq-h1;
 }
 
-h2 {
+h2, .h2 {
     @extend .eq-h2;
+}
+
+h3 {
+    @extend .eq-h3;
 }
 
 p {
@@ -43,5 +47,5 @@ p {
 }
 
 .info {
-    margin: auto;
+    // margin: auto;
 }

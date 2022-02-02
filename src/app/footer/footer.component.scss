@@ -1,17 +1,28 @@
 @import '_colors';
 
+:host {
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.svg--logo {
+    margin-top: 10%;
+}
+
 .info {
     width: 327px;
     height: 105px;
 
-    .email{
+    .email {
         color: $neutral-2;
         text-decoration: none;
         font-weight: bold;
     }
 }
 
-.svg--logo {
-    margin-top: 10%;
-    margin-left: 8%;
+.social {
+    // margin: auto;
 }
