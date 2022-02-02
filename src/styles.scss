@@ -47,38 +47,3 @@ h3 {
 p {
     @extend .eq-body2;
 }
-
-.info {
-    // margin: auto;
-}
-
-.icon {
-    cursor: pointer;
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    mask-size: cover;
-
-    &--fb {
-        mask: url(./assets/images/icon-facebook.svg);
-    }
-
-    &--instagram {
-        mask: url("./assets/images/icon-instagram.svg");
-    }
-
-    &--twitter {
-        mask: url("./assets/images/icon-twitter.svg");
-    }
-
-    // &--social {
-    //     & :hover {
-    //         fill: $primary-2;
-
-    //         path {
-    //             fill: orange;
-    //         }
-
-    //     }
-    // }
-}
