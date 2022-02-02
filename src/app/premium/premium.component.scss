@@ -1,0 +1,13 @@
+@import '_colors';
+
+:host {
+    background: $primary-2;
+    color: $neutral-1;
+    z-index: 1;
+}
+
+
+.info {
+    width: 305px;
+    height: 320px;
+}

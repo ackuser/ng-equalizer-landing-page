@@ -30,7 +30,7 @@ app-root {
 }
 
 
-h1 {
+h1, .h1 {
     @extend .eq-h1;
 }
 
@@ -40,4 +40,8 @@ h2 {
 
 p {
     @extend .eq-body2;
+}
+
+.info {
+    margin: auto;
 }

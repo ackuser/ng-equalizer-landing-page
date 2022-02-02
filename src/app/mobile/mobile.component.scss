@@ -1,0 +1,17 @@
+@import '_colors';
+
+:host {
+    background: $neutral-2;
+    position: relative;
+}
+
+.svg--pattern-2 {
+    display: block;
+    margin: auto;
+}
+
+.png--mobile {
+    position: absolute;
+    left: 23%;
+    top: -28%;
+}
