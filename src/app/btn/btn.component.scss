@@ -23,7 +23,7 @@
     @extend .btn-common;
 }
 
-:host-context(.ios) {
+:host-context(.btn--ios) {
     background: $neutral-2;
     // padding: 12px;
 
@@ -32,7 +32,7 @@
     }
 }
 
-:host-context(.android) {
+:host-context(.btn--android) {
     background: $neutral-1;
     color: $neutral-2;
     
