@@ -1,27 +1,55 @@
 :host {
     margin: 0 auto;
+
+    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        margin-left: 5%;
+    }
 }
 
 .background {
     position: absolute;
-    top: -25%;
+    top: -35%;
     left: 0;
+    content: url("../../assets/images/bg-main-mobile.png");
 
-    &::before {
-        content: url("../../assets/images/bg-main-mobile.png");
-    }
-    
     @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
         content: url("../../assets/images/bg-main-tablet.png");
+        top: -30%;
+        left: -35%;
     }
 }
 
-.svg--logo {
+.svg-pattern {
+    display: none;
+
+    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        display: block;
+        position: absolute;
+        top: -4%;
+        right: 0;
+    }
+}
+
+.svg-logo {
     margin-top: 10%;
+    margin-bottom: 14%;
 }
 
 
 .info {
     width: 324px;
     height: 320px;
+
+    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        width: 480px;
+        height: 331px;
+
+        &__title {
+            padding-right: 10%;
+        }
+
+        &__desc {
+            padding-right: 8%;
+        }
+    }
 }

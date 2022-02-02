@@ -20,6 +20,11 @@
 
     &-h2 {
         @include font(40px, 52px, bold);
+
+        @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+            @include font(64px, 1.2, bold);
+
+        }
     }
 
     &-h3 {
