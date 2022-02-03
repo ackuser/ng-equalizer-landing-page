@@ -10,12 +10,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
-
-    @media screen and (min-width: 769px) {
-        width: 333px;
-    }
 }
 
 :host {
