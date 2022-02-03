@@ -8,20 +8,37 @@
         width: 696px;
         margin: 0 5%;
     }
-}
 
-.svg-pattern-2 {
-    display: block;
-    margin: auto;
+    @media screen and (min-device-width: 1024px) {
+        width: 85%;
+        margin: 0 auto;
+    }
 }
 
 .png-mobile {
     position: absolute;
     left: 23%;
     top: -28%;
-
+    
     @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
         left: 7%;
         top: -22%;
+    }
+    
+    @media screen and (min-device-width: 1024px) {
+        left: 8%;
+        top: -36%;
+        z-index: 1;
+    }
+}
+
+.svg-pattern-2 {
+    display: block;
+    margin: auto;
+
+    @media screen and (min-device-width: 1024px) {
+        position: absolute;
+        left: 30%;
+        z-index: 0;
     }
 }
