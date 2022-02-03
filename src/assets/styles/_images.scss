@@ -19,13 +19,16 @@
 
 .png {
 
-    &--bg {
-        
-    }
+    &--bg {}
 
-    &--mobile {
+    &-mobile {
         width: 209px;
         height: 430px;
+
+        @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+            width: 270px;
+            height: 556px;
+        }
     }
 
 

@@ -9,21 +9,37 @@
 
     @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
         flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
+        margin: 10% 5% 0 5%;
     }
 }
 
 .svg-logo {
     margin-top: 10%;
+
+    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        margin-right: 70%;
+    }
 }
 
 .info {
     width: 327px;
     height: 105px;
 
+    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        flex-basis: 48%;
+    }
+
     .email {
         color: $neutral-2;
         text-decoration: none;
         font-weight: bold;
     }
+}
+
+.social {
+    // @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    //     flex-basis: 50%;
+    // }
 }
