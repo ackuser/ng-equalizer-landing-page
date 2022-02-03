@@ -19,22 +19,23 @@
         margin-top: 118%;
     }
 
-    @media screen and (min-device-width: 1024px) {
+    @media screen and (min-width: 1024px) {
         position: absolute;
         width: 446px;
         height: 625px;
         margin-left: 50%;
-        margin-top: 76%;
+        margin-top: 75%;
     }
 
-    /* ----------- Retina Screens ----------- */
-    @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+    @media screen and (min-width: 1441px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+        /* Retina-specific stuff here */
         position: absolute;
         width: 446px;
         height: 625px;
         margin-left: 47%;
-        margin-top: 70%;
+        margin-top: 58%;
     }
+
 }
 
 .info {
@@ -70,6 +71,10 @@
 
         @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
             margin-bottom: 2%;
+        }
+
+        @media screen and (min-width: 1024px) {
+            margin-bottom: 4%;
         }
     }
 }
