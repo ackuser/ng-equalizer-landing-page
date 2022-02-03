@@ -21,9 +21,13 @@
     &-h2 {
         @include font(40px, 52px, bold);
 
-        @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
             @include font(64px, 1.2, bold);
 
+        }
+
+        @media screen and (min-device-width: 1024px) {
+            @include font(88px, 88px, bold, -1px);
         }
     }
 
@@ -46,7 +50,7 @@
     &-p {
         @include font(16px, 26px);
 
-        @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
             @include font(18px, 28px);
         }
     }

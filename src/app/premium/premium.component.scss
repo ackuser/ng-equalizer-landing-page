@@ -11,7 +11,7 @@
     justify-content: space-evenly;
     margin-top: -10px;
 
-    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
         position: absolute;
         width: 399px;
         height: 546px;
@@ -25,7 +25,7 @@
     width: 305px;
     height: 320px;
 
-    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
         width: 250px;
     }
 
@@ -51,7 +51,7 @@
     &--android {
         margin-bottom: 8%;
 
-        @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
             margin-bottom: 2%;
         }
     }

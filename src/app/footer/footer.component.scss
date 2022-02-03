@@ -7,7 +7,7 @@
     justify-content: space-between;
     margin: 0 auto;
 
-    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
@@ -18,7 +18,7 @@
 .svg-logo {
     margin-top: 10%;
 
-    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
         margin-right: 70%;
     }
 }
@@ -27,7 +27,7 @@
     width: 327px;
     height: 105px;
 
-    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
         flex-basis: 49%;
     }
 
@@ -39,7 +39,7 @@
 }
 
 .social {
-    // @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    // @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
     //     flex-basis: 50%;
     // }
 }
