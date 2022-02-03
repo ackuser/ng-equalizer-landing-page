@@ -9,6 +9,7 @@ import { MobileComponent } from './mobile/mobile.component';
 import { FooterComponent } from './footer/footer.component';
 import { PremiumComponent } from './premium/premium.component';
 import { SocialComponent } from './social/social.component';
+import { BorderRadiusDirective } from './directives/border-radius.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SocialComponent } from './social/social.component';
     MobileComponent,
     FooterComponent,
     PremiumComponent,
-    SocialComponent
+    SocialComponent,
+    BorderRadiusDirective
   ],
   imports: [
     BrowserModule,
