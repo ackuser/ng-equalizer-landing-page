@@ -6,11 +6,11 @@
     grid-template-rows: 622px 380px 546px 397px;
 
     @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
-        grid-template-rows: 770px 600px 546px 397px;
+        grid-template-rows: 788px 600px 1fr;
         
     }
 
     @media screen and (min-device-width: 1024px) {
-        grid-template-rows: 860px 600px 625px 372px;
+        grid-template-rows: 864px 600px 1fr;
     }
 }
